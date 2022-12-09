@@ -4,9 +4,6 @@
 #include<sys/wait.h>
 #include <unistd.h>
 
-#define EXIT_SUCCESS 0
-#define EXIT_FAILURE 1
-
 #define MAX_COMMAND_LEN 2000
 #define MAX_ARG_NUM 10
 
@@ -34,7 +31,7 @@ int main(void)
         token = strtok(command, " ");
         if (token == NULL) {
             fprintf(stderr, "recieved no command\n");
-            exit(EXIT_FAILURE); // exit the shell when it receives nothing
+            exit(EXIT_FAILURE); // exit the shell when it receives no command
         }
         else if (strcmp(token, "exit") == 0) {
             fprintf(stdout, "recieved exit\n");
