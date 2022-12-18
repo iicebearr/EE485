@@ -1,0 +1,14 @@
+[ 0.000000] printk: bootconsole [early0] enabled
+[ 0.000000] CPU0 revision is: 0001974c (MIPS 74Kc)
+[ 0.000000] MIPS: machine is TP-Link TL-WDR4300 v1
+[ 0.000000] SoC: Atheros AR9344 rev 2
+[ 0.000000] Initrd not found or empty - disabling initrd
+[ 0.000000] Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+[ 0.299845] gpio-export gpio-export: 4 gpio(s) exported
+[ 0.306440] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+[ 0.314030] printk: console [ttyS0] disabled
+[ 0.318670] 18020000.uart: ttyS0 at MMIO 0x18020000 (irq = 9, base_baud = 2500000) is a 16550A
+[ 0.318685] Atheros AR9344 ath9k initiated
+[ 0.327918] printk: console [ttyS0] enabled
+[ 0.345825] printk: ath9k driver is enabled.
+[ 0.362015] spi-nor spi0.0: en25q64 (8192 Kbytes)
